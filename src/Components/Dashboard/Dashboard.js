@@ -1,15 +1,30 @@
-import React, { Component } from './node_modules/react'
-import Product from './Components/Product'
+// import React, { Component } from 'react'
+// import Product from './Components/Product'
 
-class Dashboard extends Component {
+// class Dashboard extends Component {
 
-    return (
+//     return (
         
-    )
-}
+//     )
+// }
 
+// render() {
+//     <Product></Product>
+// }
+
+// export default Dashboard
+
+import React, {Component} from 'react';
+export default class Header extends Component {
+constructor(props) {
+    super(props)
+  }
 render() {
-    <Product></Product>
+    const element = (<div>Text from Element</div>)
+    return (<div className="comptext">
+    <h3>First Component</h3>
+      {this.props.displaytext}
+      {element}
+    </div>)
+  }
 }
-
-export default Dashboard
