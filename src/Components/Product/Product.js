@@ -1,18 +1,3 @@
-// import React, { Component } from 'react'
-
-// class Product extends Component {
-
-//     return (
-//         <div>Product</div>
-//     )
-// }
-
-// render() {
-    
-// }
-
-// export default Product
-
 import React, {Component} from 'react';
 
 export default class Product extends Component {

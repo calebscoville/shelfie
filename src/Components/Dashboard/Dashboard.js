@@ -1,19 +1,3 @@
-// import React, { Component } from 'react'
-// import Product from './Components/Product'
-
-// class Dashboard extends Component {
-
-//     return (
-        
-//     )
-// }
-
-// render() {
-//     <Product></Product>
-// }
-
-// export default Dashboard
-
 import React, {Component} from 'react';
 
 

@@ -1,18 +1,3 @@
-// import React, { Component } from 'react'
-
-// class Form extends Component {
-
-//     return (
-        
-//     )
-// }
-
-// render() {
-    
-// }
-
-// export default Form
-
 import React, {Component} from 'react';
 
 

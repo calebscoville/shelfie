@@ -1,18 +1,3 @@
-// import React, { Component } from 'react'
-
-// class Header extends Component {
-
-//     return (
-       
-//     )
-// }
-
-// render() {
-    
-// }
-
-// export default Header
-
 import React, {Component} from 'react';
 
 export default class Header extends Component {
