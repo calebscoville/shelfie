@@ -15,9 +15,15 @@
 
 import React, {Component} from 'react';
 
-export default class Form extends Component {
+
+class Form extends Component {
 constructor(props) {
     super(props)
+    this.state = {
+      name:"",
+      price: 0,
+      imgurl:""
+    }
   }
 render() {
     const element = (<div>Form</div>)
@@ -28,3 +34,5 @@ render() {
     </div>)
   }
 }
+
+export default Form
