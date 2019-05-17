@@ -13,5 +13,5 @@ massive(CONNECTION_STRING).then((database) => {
     app.listen(process.env.SERVER_PORT, () => console.log(`IN LOVE WITH CHELLIE PETE _${SERVER_PORT}`))
 })
 
-const PORT = 3456
-app.listen(PORT, () => console.log(`Caleb is a frickin boss ${PORT}`))
+// const PORT = 3456
+// app.listen(PORT, () => console.log(`Caleb is a frickin boss ${PORT}`))
