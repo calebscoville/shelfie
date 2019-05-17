@@ -1,14 +1,15 @@
 import React, { Component } from './node_modules/react'
+import Product from './Components/Product'
 
 class Dashboard extends Component {
 
     return (
-        <div>Dashboard</div>
+        
     )
 }
 
 render() {
-    
+    <Product></Product>
 }
 
 export default Dashboard
