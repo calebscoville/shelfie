@@ -15,14 +15,16 @@
 // export default Dashboard
 
 import React, {Component} from 'react';
-export default class Header extends Component {
+
+
+export default class Dashboard extends Component {
 constructor(props) {
     super(props)
   }
 render() {
-    const element = (<div>Text from Element</div>)
+    const element = (<div>Dashboard</div>)
     return (<div className="comptext">
-    <h3>First Component</h3>
+    <h3>Dashboard</h3>
       {this.props.displaytext}
       {element}
     </div>)

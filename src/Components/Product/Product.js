@@ -14,14 +14,15 @@
 // export default Product
 
 import React, {Component} from 'react';
-export default class Header extends Component {
+
+export default class Product extends Component {
 constructor(props) {
     super(props)
   }
 render() {
-    const element = (<div>Text from Element</div>)
+    const element = (<div>Product</div>)
     return (<div className="comptext">
-    <h3>First Component</h3>
+    <h3>Product</h3>
       {this.props.displaytext}
       {element}
     </div>)
